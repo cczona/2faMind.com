@@ -12,32 +12,32 @@
 </script>
 <div class="social-links">
   <ul>
-    {% if author.email %}
-      <li><script>gen_mail_to_link('{{ author.email }}', "Re: {{site.title}}");</script></li>
+    {% if owner.email %}
+      <li><script>gen_mail_to_link('{{ owner.email }}', "Re: {{site.title}}");</script></li>
     {% endif %}
 
-    {% if author.url %}
-      <li><a href="{{ author.url }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-user"></i></a></li>
+    {% if owner.url %}
+      <li><a href="{{ owner.url }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-user"></i></a></li>
     {% endif %}
 
-    {% if author.slideshare %}
-      <li><a href="http://slideshare.com/{{ author.slideshare }}/presentations?order=popular" class="social-link-item" target="_blank"><i class="fa fa-fw fa-slideshare"></i></a></li>
+    {% if owner.slideshare %}
+      <li><a href="http://slideshare.com/{{ owner.slideshare }}/presentations?order=popular" class="social-link-item" target="_blank"><i class="fa fa-fw fa-slideshare"></i></a></li>
     {% endif %}
 
-    {% if author.youtube_playlist %}
-      <li><a href="https://youtube.com/playlist?list={{ author.youtube_playlist }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-youtube"></i></a></li>
+    {% if owner.youtube_playlist %}
+      <li><a href="https://youtube.com/playlist?list={{ owner.youtube_playlist }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-youtube"></i></a></li>
     {% endif %}
 
-    {% if author.vimeo_playlist %}
-      <li><a href="https://vimeo.com/{{ author.vimeo_playlist }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-vimeo"></i></a></li>
+    {% if owner.vimeo_playlist %}
+      <li><a href="https://vimeo.com/{{ owner.vimeo_playlist }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-vimeo"></i></a></li>
     {% endif %}
 
-    {% if author.twitter %}
-      <li><a href="http://twitter.com/{{ author.twitter }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+    {% if owner.twitter %}
+      <li><a href="http://twitter.com/{{ owner.twitter }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
     {% endif %}
 
-    {% if author.linkedin %}
-      <li><a href="http://linkedin.com/in/{{ author.linkedin }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+    {% if owner.linkedin %}
+      <li><a href="http://linkedin.com/in/{{ owner.linkedin }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
     {% endif %}
 
   </ul>

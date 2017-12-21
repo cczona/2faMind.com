@@ -20,10 +20,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 owner:
   name: Carina C. Zona
   avatar: carina-c-zona-300x300.jpg
-  url: http://cczona.com/speaking/speaker/
-  site: http://cczona.com/speaking/speaker/
-  web: http://cczona.com/speaking/speaker/
-  website: http://cczona.com/speaking/speaker/
+  profile: http://cczona.com/speaking/speaker
+  website: http://cczona.com
   email: cczona@gmail.com
   twitter: cczona
   linkedin: cczona
