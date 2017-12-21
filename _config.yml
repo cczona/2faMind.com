@@ -35,6 +35,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+show_downloads: false # GH Pages "modernist" theme setting: "true" or "false" to indicate whether to provide a download URL
+
+
 ## non-blogging themes natively supported by Github Pages
 # theme: jekyll-theme-cayman
 # theme: jekyll-theme-leap-day
@@ -45,7 +48,11 @@ plugins:
 # theme: jekyll-theme-time-machine
 
 ## **** PREFERRED BLOGGING THEME ****
-theme: "leonids"
+remote_theme: "aron-bordin/neo-hpstr-jekyll-theme" # works albiet without social links etc
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-modernist
+# theme: jekyll-theme-tactile
+
 
 ## other blogging themes
 # theme: neo-hpstr-jekyll-theme

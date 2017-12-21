@@ -6,6 +6,6 @@ gem "jekyll-feed"
 
 group :jekyll_plugins do
 	# jekyll themes
-	 	gem "leonids"
+	gem 'leonids', '~> 0.2.1'
 end
 

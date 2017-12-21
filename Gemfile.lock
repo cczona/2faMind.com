@@ -235,7 +235,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed
-  leonids
+  leonids (~> 0.2.1)
 
 BUNDLED WITH
    1.16.0

@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
 title: 2FA Mind
 ---
-## 2FA Mind
 
 North Bay Python 2016 keynote
 
