@@ -1,0 +1,44 @@
+<script type="text/javascript">
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs,rhs;
+    var p = hs.split('@');
+    lhs = p[0];
+    rhs = p[1];
+    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+    document.write(":" + lhs + "@");
+    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
+  }
+</script>
+<div class="social-links">
+  <ul>
+    {% if author.email %}
+      <li><script>gen_mail_to_link('{{ author.email }}', "Re: {{site.title}}");</script></li>
+    {% endif %}
+
+    {% if author.url %}
+      <li><a href="{{ author.url }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-user"></i></a></li>
+    {% endif %}
+
+    {% if author.slideshare %}
+      <li><a href="http://slideshare.com/{{ author.slideshare }}/presentations?order=popular" class="social-link-item" target="_blank"><i class="fa fa-fw fa-slideshare"></i></a></li>
+    {% endif %}
+
+    {% if author.youtube_playlist %}
+      <li><a href="https://youtube.com/playlist?list={{ author.youtube_playlist }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-youtube"></i></a></li>
+    {% endif %}
+
+    {% if author.vimeo_playlist %}
+      <li><a href="https://vimeo.com/{{ author.vimeo_playlist }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-vimeo"></i></a></li>
+    {% endif %}
+
+    {% if author.twitter %}
+      <li><a href="http://twitter.com/{{ author.twitter }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+    {% endif %}
+
+    {% if author.linkedin %}
+      <li><a href="http://linkedin.com/in/{{ author.linkedin }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+    {% endif %}
+
+  </ul>
+</div>

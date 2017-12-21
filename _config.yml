@@ -13,12 +13,23 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 2faMind
-email: cczona@gmail.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://2faMind.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cczona
-github_username:  cczona
+owner:
+  name: Carina C. Zona
+  avatar: carina-c-zona-300x300.jpg
+  url: http://cczona.com/speaking/speaker/
+  site: http://cczona.com/speaking/speaker/
+  web: http://cczona.com/speaking/speaker/
+  website: http://cczona.com/speaking/speaker/
+  email: cczona@gmail.com
+  twitter: cczona
+  linkedin: cczona
+  slideshare: cczona
+  youtube_playlist: PL8KPq_fW3yN3l_BRYKaBvcXDOgbPuDrJC
+  vimeo_playlist: search?q=%22carina+c+zona%22
+
 
 # Build settings
 markdown: kramdown
