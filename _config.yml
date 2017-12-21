@@ -12,10 +12,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 2faMind
+title: "2FA Mind"
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://2faMind.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
 owner:
   name: Carina C. Zona
   avatar: carina-c-zona-300x300.jpg
